@@ -318,7 +318,7 @@ function validateThemLNV() {
     }
 }
 
-function validateSuaNV() {
+function validateSuaLNV() {
     var v1 = document.getElementById("errorTenLNV").style.visibility;
     if (v1 == "hidden") {
         return true;
@@ -342,8 +342,9 @@ function validateThemPB() {
     }
 }
 
-function validateSuaNV() {
+function validateSuaPB() {
     var v1 = document.getElementById("errorTenPB").style.visibility;
+    console.log(v1);
     if (v1 == "hidden") {
         return true;
     }
