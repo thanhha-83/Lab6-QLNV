@@ -58,7 +58,7 @@ if (isset($_SESSION['user'])) {
                     $pb = mysqli_fetch_array($phongban);
                     ?>
                     <div class="mt-3">
-                        <form action="" method="POST" enctype="multipart/form-data" onSubmit="return validateSuaNV();">
+                        <form action="" method="POST" enctype="multipart/form-data" onSubmit="return validateSuaPB();">
                             <div class="row">
                                 <div class="mb-3 col-md-12">
                                     <label for="maPB" class="form-label"><b>Mã phòng ban</b></label>

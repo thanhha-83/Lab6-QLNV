@@ -58,7 +58,7 @@ if (isset($_SESSION['user'])) {
                     $lnv = mysqli_fetch_array($loainnv);
                     ?>
                     <div class="mt-3">
-                        <form action="" method="POST" enctype="multipart/form-data" onSubmit="return validateSuaNV();">
+                        <form action="" method="POST" enctype="multipart/form-data" onSubmit="return validateSuaLNV();">
                             <div class="row">
                                 <div class="mb-3 col-md-12">
                                     <label for="maLNV" class="form-label"><b>Mã loại nhân viên</b></label>
